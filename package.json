@@ -1,15 +1,12 @@
 {
-  "name": "efs_vuejs",
-  "version": "1.0.0",
-  "description": "web front end",
-  "author": "jdfranco <jdfranco@unomaha.edu>",
+  "name": "skills-list",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-   node.
-    "build": "node build/build.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
@@ -43,3 +40,4 @@
     "not dead"
   ]
 }
+
